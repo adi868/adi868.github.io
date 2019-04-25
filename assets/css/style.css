@@ -1,3 +1,92 @@
-body {
-    background-color: greenyellow;
+
+header{
+        
+     
+}
+
+#too {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    margin: left;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-left: 30px;
+    width: 320px;
+    height: 100px;
+    background-color: #4aaaa5;
+    text-align: center;
+    line-height: 100px;
+
+  }
+  
+
+body{
+    padding:20px;
+    background-color: #ffffff;
+    line-height: 2;
+}
+
+
+
+footer {
+    background-color: #666666;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+    font-size: 9pt;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: thick;
+    
+}
+
+.box{
+    width : 90%;
+    height: 70%;
+    background: white;
+    margin: 0 auto;
+    padding : 20px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: thin;
+
+}
+
+.picture{
+    float: left;
+    padding: 10px;
+}
+
+.about{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5
+}
+
+.text {
+   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   color: #777777;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.container{
+    margin: 0 auto;
+    width:960px;
+}
+
+}
+/* Madeleine, property clear: both breaks the floating inline and creates a new line. We create a css clearfix class to achieve this goal */
+.clearfix {
+    clear:both;
+
 }
