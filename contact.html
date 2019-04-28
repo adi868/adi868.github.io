@@ -1,9 +1,38 @@
-<div class="clearfix"> 
-    <h2  >Contact Info</h2>
-    <p><ul>
-      <li><strong>Email: <a href="mailto:madeleinekemeny@gmail.com">madeleinekemeny@gmail.com</a></strong></li>
-      <li><strong>Github: <a href="#">http://www.github.com</a></strong></li>
-      <li><strong>Portfolio: <a href="#">coming soon</a></strong></li>
-      <li><strong>Graphic Design Portfolio: <a href="http://www.ms-madeleine.net" target="_blank">ms-madeleine.net</a></strong></li>
-    </ul></p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <h1>Contact</h1>
+        <hr color="#777777" ; hr size="3">
+        <br>
+        <div class="info">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                    <button type="button">Submit</button>
+            </div>
+        </div>
+    </form>
+    
+
+</html>
